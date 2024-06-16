@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "oit:all_items",
+          "expand": true,
+          "weight": 1
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_unique_items",
+          "weight": 50
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_potions_arrows",
+          "weight": 25
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_enchanting_books",
+          "weight": 15
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_goat_horns",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

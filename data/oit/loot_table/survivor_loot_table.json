@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "minecraft:loot_table",
+          "value": "oit:all_items",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "oit:survivor_items",
+          "expand": true,
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

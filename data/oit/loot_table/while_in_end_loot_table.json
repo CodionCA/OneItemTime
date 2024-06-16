@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "minecraft:loot_table",
+          "value": "oit:all_items",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "oit:while_in_end_items",
+          "expand": true,
+          "weight": 1
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_potions_arrows",
+          "weight": 20
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_enchanting_books",
+          "weight": 40
+        }
+      ]
+    }
+  ]
+}

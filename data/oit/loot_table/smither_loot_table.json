@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "minecraft:loot_table",
+          "value": "oit:all_items",
+          "weight": 280
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "oit:smither_items",
+          "expand": true,
+          "weight": 1
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_potions_arrows",
+          "weight": 35
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "oit:all_enchanting_books",
+          "weight": 60
+        }
+      ]
+    }
+  ]
+}

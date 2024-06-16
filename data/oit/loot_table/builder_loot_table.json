@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "minecraft:loot_table",
+          "value": "oit:all_items",
+          "weight": 1400
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "oit:builder_items",
+          "expand": true,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "oit:builder_items_refined",
+          "expand": true,
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

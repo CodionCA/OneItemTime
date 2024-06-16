@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cookie",
+          "predicates": {
+            "minecraft:custom_data": "{gravity_down_p:true}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "oit:eat_item/gravity_down_p"
+  }
+}
