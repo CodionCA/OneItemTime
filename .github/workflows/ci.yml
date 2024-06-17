@@ -27,7 +27,7 @@ jobs:
         uses: mcbeet/check-commands@v1
         with:
           source: .
-          minecraft: "1.20"
+          minecraft: "1.21"
       # Checks JSON for errors
       - name: Check JSON
         uses: ocular-d/json-linter@0.0.2
@@ -35,7 +35,7 @@ jobs:
       - name: Compile and upload
         uses: actions/upload-artifact@v4
         with:
-          name: OneItemTime V1
+          name: OneItemTime 1.21
           path: |
                data/
                pack.mcmeta
@@ -52,7 +52,7 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
         with:
-          artifact_name: '[UNZIP ME] OneItemTime V1'
+          artifact_name: '[UNZIP ME] OneItemTime 1.21'
           packsquash_version: latest
           options: |
             pack_directory = '.'
