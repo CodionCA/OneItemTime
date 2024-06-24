@@ -6,4 +6,4 @@
 OneItemTime is a Minecraft datapack for version 1.21, created by Porkepig2 and Codion. A random item is given to players every minute based on their selected class, along with some additions.
 
 ## Structures
-Only the end portal frame, end platform, end-game portal & pillars spawns. No other structures are generated.
+Only the end portal frame, end platform, end-game portal & pillars spawns. Only a few other structures are generated like the trial chambers & the ancient ruins.
