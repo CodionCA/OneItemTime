@@ -5,7 +5,7 @@
       "entries": [
 	    {
           "type": "minecraft:loot_table",
-          "value": "oit:all_items",
+          "value": "oit:all_main_items",
           "weight": 150
         },
         {

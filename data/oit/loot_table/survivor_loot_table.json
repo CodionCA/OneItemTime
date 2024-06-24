@@ -6,7 +6,7 @@
 	    {
           "type": "minecraft:loot_table",
           "value": "oit:all_items",
-          "weight": 100
+          "weight": 60
         },
         {
           "type": "minecraft:tag",

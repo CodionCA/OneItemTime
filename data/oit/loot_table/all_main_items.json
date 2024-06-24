@@ -5,29 +5,29 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "oit:all_items",
+          "name": "oit:all_main_items",
           "expand": true,
           "weight": 1
         },
 		{
           "type": "minecraft:loot_table",
           "value": "oit:all_unique_items",
-          "weight": 60
+          "weight": 50
         },
 		{
           "type": "minecraft:loot_table",
           "value": "oit:all_potions_arrows",
-          "weight": 20
+          "weight": 10
         },
 		{
           "type": "minecraft:loot_table",
           "value": "oit:all_enchanting_books",
-          "weight": 20
+          "weight": 12
         },
 		{
           "type": "minecraft:loot_table",
           "value": "oit:all_goat_horns",
-          "weight": 2
+          "weight": 1
         }
       ]
     }

@@ -6,7 +6,7 @@
 	    {
           "type": "minecraft:loot_table",
           "value": "oit:all_items",
-          "weight": 280
+          "weight": 180
         },
         {
           "type": "minecraft:tag",
@@ -17,12 +17,12 @@
 		{
           "type": "minecraft:loot_table",
           "value": "oit:all_potions_arrows",
-          "weight": 35
+          "weight": 25
         },
 		{
           "type": "minecraft:loot_table",
           "value": "oit:all_enchanting_books",
-          "weight": 60
+          "weight": 50
         }
       ]
     }

@@ -5,8 +5,8 @@
       "entries": [
 	    {
           "type": "minecraft:loot_table",
-          "value": "oit:all_items",
-          "weight": 1400
+          "value": "oit:all_main_items",
+          "weight": 1000
         },
         {
           "type": "minecraft:tag",

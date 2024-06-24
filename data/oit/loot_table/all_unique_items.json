@@ -278,7 +278,7 @@
         },
 		{
           "type": "item",
-          "weight": 3,
+          "weight": 1,
           "name": "minecraft:cookie",
           "functions": [
             {
@@ -317,7 +317,7 @@
         },
 		{
           "type": "item",
-          "weight": 2,
+          "weight": 1,
           "name": "minecraft:cookie",
           "functions": [
             {
@@ -356,7 +356,7 @@
         },
 		{
           "type": "item",
-          "weight": 2,
+          "weight": 1,
           "name": "minecraft:cookie",
           "functions": [
             {
@@ -551,7 +551,7 @@
         },
 		{
           "type": "item",
-          "weight": 9,
+          "weight": 10,
           "name": "minecraft:cookie",
           "functions": [
             {
@@ -590,7 +590,7 @@
         },
 		{
           "type": "item",
-          "weight": 8,
+          "weight": 9,
           "name": "minecraft:cookie",
           "functions": [
             {
@@ -629,7 +629,7 @@
         },
 		{
           "type": "item",
-          "weight": 7,
+          "weight": 8,
           "name": "minecraft:cookie",
           "functions": [
             {
@@ -698,7 +698,46 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Completely Erases the block below the player (for those pesky unbreakable blocks)"
+                  "text": "Erases the block below the player (for those pesky unbreakable blocks)"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 12,
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "effect_randomizer": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "gold",
+                  "italic": false,
+                  "text": "Random Effects Cookie"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Gives the player random effects that lasts until they die"
                 }
               ],
               "mode": "append"
